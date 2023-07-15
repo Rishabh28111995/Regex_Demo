@@ -16,7 +16,7 @@ namespace Regex_Demo
 			//We have created object of the class
 			//We have pass a parameter pattern in given class constructor
 			Regex regex = new Regex(pattern);
-			if (regex.IsMatch("rishabh"))
+			if (regex.IsMatch("rishab"))
 			{
 				Console.WriteLine("String match the Pattern");
 			}
